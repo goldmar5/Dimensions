@@ -18,6 +18,7 @@ public class Keywords
     [Keyword("Untitled keyword")]
     public void Untitled_keyword()
     {
+        //
         WPFWindow dimensionsCMMicrosoftVisualStudioAdministrator = _desktop.WPFWindow("DimensionsCM - Microsoft Visual Studio  (Administrator)");
         dimensionsCMMicrosoftVisualStudioAdministrator.WPFMenu("MenuBar").Select("/_View/Dimensions E_xplorer");
         dimensionsCMMicrosoftVisualStudioAdministrator.Size(1554, 1139);
