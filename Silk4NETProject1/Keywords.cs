@@ -20,7 +20,7 @@ public class Keywords
     {
         //
         WPFWindow dimensionsCMMicrosoftVisualStudioAdministrator = _desktop.WPFWindow("DimensionsCM - Microsoft Visual Studio  (Administrator)");
-        dimensionsCMMicrosoftVisualStudioAdministrator.WPFMenu("MenuBar").Select("/_View/Dimensions E_xplorer");
+        dimensionsCMMicrosoftVisualStudioAdministrator.WPFMenu("MenuBar").Select("/_View/Dimensions Explorer");
         dimensionsCMMicrosoftVisualStudioAdministrator.Size(1554, 1139);
         dimensionsCMMicrosoftVisualStudioAdministrator.Control("DevExpress XtraBars Controls DockedBarControl").TextClick("Connect...");
 
