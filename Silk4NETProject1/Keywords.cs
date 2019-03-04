@@ -6,7 +6,6 @@ using SilkTest.Ntf.Wpf;
 
 public class Keywords
 {
-
     private readonly Desktop _desktop = Agent.Desktop;
 
     [Keyword("Start application", IsBaseState = true)]
