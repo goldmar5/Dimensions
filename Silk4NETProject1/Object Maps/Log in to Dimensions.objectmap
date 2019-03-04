@@ -1,0 +1,6 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="Log in to Dimensions" locator="/Dialog[@caption=&apos;Log in to Dimensions&apos;]">
+    <ObjectMapEntry id="btnLogin" locator="//PushButton[@automationId=&apos;btnLogin&apos;]"/>
+    <ObjectMapEntry id="txtPassword" locator="//TextField[@automationId=&apos;txtPassword&apos;]"/>
+  </ObjectMapEntry>
+</ObjectMap>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyword xmlns="http://www.borland.com/silk/Keyword">
+    <InvokeKeyword name="Start application">
+        <Argument value="-log" />
+        <Argument value="true" />
+    </InvokeKeyword>
+    <InvokeKeyword name="Untitled keyword" />
+</Keyword>

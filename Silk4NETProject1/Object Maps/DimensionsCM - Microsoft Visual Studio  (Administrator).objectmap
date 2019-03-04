@@ -1,0 +1,6 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="Microsoft Visual Studio" locator="/WPFWindow[@caption='*Microsoft Visual Studio*']">
+    <ObjectMapEntry id="DevExpress XtraBars Controls DockedBarControl" locator="//Control[@className='Serena.Common.UI.Tools.ConnectionExplorer']//Control[@className='DevExpress.XtraBars.Controls.DockedBarControl'][2]" />
+    <ObjectMapEntry id="MenuBar" locator="//WPFMenu[@automationId='MenuBar']" />
+  </ObjectMapEntry>
+</ObjectMap>
