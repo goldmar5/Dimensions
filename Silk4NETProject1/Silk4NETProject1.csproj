@@ -72,6 +72,14 @@
   <ItemGroup>
     <EmbeddedResource Include="Keyword Driven Tests\kdTest.kdt" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" />
+    <Content Include="bin\Debug\Silk4NETProject1.dll" />
+    <Content Include="bin\Debug\Silk4NETProject1.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Silk4NETProject1.library.zip" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
