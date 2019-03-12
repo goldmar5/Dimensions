@@ -15,9 +15,10 @@ public class Keywords
         baseState.Execute();
     }
 
-    [Keyword("Untitled keyword")]
-    public void Untitled_keyword()
+    [Keyword("TestKeyword")]
+    public void TestKeyword()
     {
+        Agent.SystemFunctions.CreateDirectory("C:\\SILKCENTRAL");
         //
         WPFWindow dimensionsCMMicrosoftVisualStudioAdministrator = _desktop.WPFWindow("DimensionsCM - Microsoft Visual Studio  (Administrator)");
         dimensionsCMMicrosoftVisualStudioAdministrator.WPFMenu("Menu_Bar").Select("/_View/Dimensions E_xplorer");
